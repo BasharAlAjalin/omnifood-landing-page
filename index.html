@@ -25,14 +25,16 @@
   </head>
   <body>
     <header class="header">
-      <img src="img/omnifood-logo.png" alt="Omnifood Logo " class="logo" />
+      <a href="#">
+      <img src="img/omnifood-logo.png" alt="Omnifood Logo " class="logo" /> 
+    </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">Section 1</a></li>
-          <li><a href="#" class="main-nav-link">Section 2</a></li>
-          <li><a href="#" class="main-nav-link">Section 3</a></li>
-          <li><a href="#" class="main-nav-link">Section 4</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Section 5</a></li>
+          <li><a href="#" class="main-nav-link">How it works</a></li>
+          <li><a href="#" class="main-nav-link">Meals</a></li>
+          <li><a href="#" class="main-nav-link">Testimonials</a></li>
+          <li><a href="#" class="main-nav-link">Pricing</a></li>
+          <li><a href="#" class="main-nav-link nav-cta">Try for free</a></li>
         </ul>
       </nav>
     </header>
@@ -390,7 +392,7 @@
           <span class="sub-heading">Pricing</span>
           <h2 class="secondary-head">Eating well without breaking the bank</h2>
         </div>
-        <div class="container grid grid--2-cols">
+        <div class="container grid grid--2-cols margin-bottom-sm">
           <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
@@ -448,13 +450,144 @@
             </div>
           </div>
         </div>
+        <div class="container grid">
+          <aside class="plan-details">
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans also include the following:
+          </aside>
+        </div>
         <div class="container grid grid--4-cols">
-          <div class="feature">feature1</div>
-          <div class="feature">feature2</div>
-          <div class="feature">feature3</div>
-          <div class="feature">feature4</div>
+          <div class="feature">
+            <ion-icon name="infinite-outline" class="feature-icon"></ion-icon>
+            <p class="feature-title">Never cook again!</p>
+            <p class="feature-text">
+              Our subscriptions cover 365 days per year, even including major
+              holidays.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon name="nutrition-outline" class="feature-icon"></ion-icon>
+            <p class="feature-title">Local and organic</p>
+            <p class="feature-text">
+              Our cooks only use local, fresh, and organic products to prepare
+              your meals.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon name="leaf-outline" class="feature-icon"></ion-icon>
+            <p class="feature-title">No waste</p>
+            <p class="feature-text">
+              All our partners only use reusable containers to package all your
+              meals.
+            </p>
+          </div>
+          <div class="feature">
+            <ion-icon name="pause-outline" class="feature-icon"></ion-icon>
+            <p class="feature-title">Pause anytime</p>
+            <p class="feature-text">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="call-to-action-section">
+        <div class="container">
+          <div class="call-to-action">
+            <div class="call-to-action-text-box">
+              <h2 class="secondary-head">Get your first meal for free</h2>
+              <p class="call-to-action-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime.
+              </p>
+              <form class="call-to-action-form" action="#"">
+                <div>
+                <label for="name">Name: </label>
+                <input type="text" placeholder="Enter you name" id="name" required/>
+                </div>
+                <div><label for="email">Email Address: </label>
+                <input type="email"  placeholder="Enter your email address" id="email" required/></div>
+                <div>
+                 <label for="hearedFrom">Where did you here about us :</label>
+                <select name="hearedFrom" id="hearedFrom" required>
+                  <option value="">Please choose an option: </option>
+                  <option value="Friends">Friends and Family</option>
+                  <option value="youtube">Youtube</option>
+                  <option value="SocialMedia">Social Media</option>
+                  <option value="Others">Others</option>
+                </select>
+                </div>
+                <button class="btn btn--form">Sing up now</button>
+              </form>
+            </div>
+            <div
+              class="call-to-action-image-box"
+              role="img"
+              aria-label="mowan eating"
+            ></div>
+          </div>
         </div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class=" container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+      <img src="img/omnifood-logo.png" alt="Omnifood Logo " class="logo" /> 
+    </a>
+
+    <ul class="social-links">
+      <li><a href="#" class="footer-link"><ion-icon name="logo-instagram"class="icon-item"></ion-icon></a></li>
+      <li><a href="#" class="footer-link"><ion-icon name="logo-facebook" class="icon-item"></ion-icon></a></li>
+      <li><a href="#" class="footer-link"><ion-icon name="logo-twitter" class="icon-item"></ion-icon></a></li>
+    </ul>
+ 
+    <p class="copyright">Copyright &copy; 2027 by Omnifood, Inc. All rights resrved. </p>
+        </div>
+        <div class="address-col">
+          <p class="footer-heading"> Contact us</p>
+          <address class="contacts">
+            <p class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+            <p><a href="tel:415-201-6370" class="footer-link">415-201-6370</a><br>
+            <a href="mailto:hello@omnifood.com" class="footer-link">hello@omnifood.com</a></p>
+
+          </address>
+        </div> 
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav"> 
+            <li><a href="" class="footer-link">Create account</a></li>
+            <li><a href="" class="footer-link">Sign in</a></li>
+            <li><a href="" class="footer-link">IOS App</a></li>
+            <li><a href="" class="footer-link">Android App</a></li> 
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav"> 
+            <li><a href="" class="footer-link">About Omnifood
+</a></li>
+            <li><a href="" class="footer-link">For Business</a></li>
+            <li><a href="" class="footer-link">Cooking partners</a></li>
+            <li><a href="" class="footer-link">Careers</a></li> 
+          </ul>
+        </nav>
+        
+             <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav"> 
+            <li><a href="" class="footer-link">Recipe directory
+</a></li>
+            <li><a href="" class="footer-link">Help center
+</a></li>
+            <li><a href="" class="footer-link">Privacy & terms
+</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </body>
 </html>
