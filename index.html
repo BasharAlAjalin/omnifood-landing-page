@@ -23,6 +23,8 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -31,11 +33,11 @@
     </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a href="#" class="main-nav-link">How it works</a></li>
-          <li><a href="#" class="main-nav-link">Meals</a></li>
-          <li><a href="#" class="main-nav-link">Testimonials</a></li>
-          <li><a href="#" class="main-nav-link">Pricing</a></li>
-          <li><a href="#" class="main-nav-link nav-cta">Try for free</a></li>
+          <li><a href="#how-it-works" class="main-nav-link">How it works</a></li>
+          <li><a href="#meals" class="main-nav-link">Meals</a></li>
+          <li><a href="#testimonials" class="main-nav-link">Testimonials</a></li>
+          <li><a href="#pricing" class="main-nav-link">Pricing</a></li>
+          <li><a href="#cta" class="main-nav-link nav-cta">Try for free</a></li>
         </ul>
       </nav> 
 
@@ -57,8 +59,8 @@
               nutritional needs.
             </p>
             <div class="flex-container">
-              <a href="#" class="btn btn--main">Fuel Your Future</a>
-              <a href="#" class="btn btn-secondary">Learn more &darr;</a>
+              <a href="#cta" class="btn btn--main">Fuel Your Future</a>
+              <a href="#how-it-works " class="btn btn-secondary">Learn more &darr;</a>
             </div>
             <div class="delivered-meals">
               <div class="customers">
@@ -119,7 +121,7 @@
           </div>
         </div>
       </section>
-      <section class="how-it-works">
+      <section class="how-it-works" id="how-it-works">
         <div class="container">
           <span class="sub-heading">How it works</span>
           <h2 class="secondary-head">
@@ -179,7 +181,7 @@
           </div>
         </div>
       </section>
-      <section class="meals-section">
+      <section class="meals-section" id="meals">
         <div class="container center-text">
           <span class="sub-heading">Meals</span>
           <h2 class="secondary-head">
@@ -296,7 +298,7 @@
         </div>
       </section>
 
-      <section class="testimonial-section">
+      <section class="testimonial-section" id="testimonials">
         <div class="testimonials-container">
           <span class="sub-heading">Testimonials</span>
           <h2 class="secondary-head">Once you try it, you can't go back</h2>
@@ -393,7 +395,7 @@
         </div>
       </section>
 
-      <section class="pricing-section">
+      <section class="pricing-section" id="pricing">
         <div class="container">
           <span class="sub-heading">Pricing</span>
           <h2 class="secondary-head">Eating well without breaking the bank</h2>
@@ -498,7 +500,7 @@
         </div>
       </section>
 
-      <section class="call-to-action-section">
+      <section class="call-to-action-section" id="cta">
         <div class="container">
           <div class="call-to-action">
             <div class="call-to-action-text-box">
@@ -550,7 +552,7 @@
       <li><a href="#" class="footer-link"><ion-icon name="logo-twitter" class="icon-item"></ion-icon></a></li>
     </ul>
  
-    <p class="copyright">Copyright &copy; 2027 by Omnifood, Inc. All rights resrved. </p>
+    <p class="copyright">Copyright &copy; <span class="year"> 2027 </span> by Omnifood, Inc. All rights resrved. </p>
         </div>
         <div class="address-col">
           <p class="footer-heading"> Contact us</p>
